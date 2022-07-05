@@ -1,0 +1,30 @@
+
+public class july {
+	void jan()
+	{
+		System.out.println("*********       *******");
+	}
+	void feb()
+	{
+		System.out.println(" *           *");
+	}
+	void mar()
+	{
+		System.out.println(" *           *******");
+	}
+	
+	public static void main(String [] args) 
+	{
+		july obj1=new july();
+		july obj2=new july();
+		july obj3=new july();
+		obj1.jan();
+		obj2.feb();
+		obj2.feb();
+		obj3.mar();
+		obj2.feb();
+		obj2.feb();
+		obj3.mar();
+	}
+
+}
