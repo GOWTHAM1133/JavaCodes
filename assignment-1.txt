@@ -1,0 +1,155 @@
+package Hellow;
+public class multi 
+{
+ void O()
+   {  
+     for(int i=1;i<=5;i++)
+      {
+    	 for(int j=1;j<=5;j++)
+    	 {
+    		 if(i==1||i==5||j==1||j==5)
+    		 {
+               System.out.print("* ");
+    		 }
+    		 else
+    		 {
+    			 System.out.print("  ");
+    		 }
+    	 }
+
+    	 System.out.println();
+      }  
+     System.out.println();
+   }
+ void T()
+ {  
+   for(int i=1;i<=5;i++)
+    {
+  	 for(int j=1;j<=5;j++)
+  	 {
+  		 if(i==1||j==3)
+  		 {
+             System.out.print("* ");
+  		 }
+  		 else
+  		 {
+  			 System.out.print("  ");
+  		 }
+  	 }
+  	 System.out.println();
+    }  
+   System.out.println();
+ }
+ void E()
+ {  
+   for(int i=1;i<=5;i++)
+    {
+  	 for(int j=1;j<=5;j++)
+  	 {
+  		 if(i==1||i==3||i==5||j==1)
+  		 {
+             System.out.print("* ");
+  		 }
+  		 else
+  		 {
+  			 System.out.print("  ");
+  		 }
+  	 }
+  	 System.out.println();
+    }  
+   System.out.println();
+ }
+ void L()
+ {  
+   for(int i=1;i<=5;i++)
+    {
+  	 for(int j=1;j<=5;j++)
+  	 {
+  		 if(i==5||j==1)
+  		 {
+             System.out.print("* ");
+  		 }
+  		 else
+  		 {
+  			 System.out.print("  ");
+  		 }
+  	 }
+  	 System.out.println();
+    }  
+   System.out.println();
+ }
+ void U()
+ {  
+   for(int i=1;i<=5;i++)
+    {
+  	 for(int j=1;j<=5;j++)
+  	 {
+  		 if(i==5||j==1||j==5)
+  		 {
+             System.out.print("* ");
+  		 }
+  		 else
+  		 {
+  			 System.out.print("  ");
+  		 }
+  	 }
+  	 System.out.println();
+    }  
+   System.out.println();
+ }
+ void S()
+ {  
+   for(int i=1;i<=5;i++)
+    {
+  	 for(int j=1;j<=5;j++)
+  	 {
+  		 if(i==1||i==5||i==3||i==2&&j==1||i==4&&j==5)
+  		 {
+             System.out.print("* ");
+  		 }
+  		 else
+  		 {
+  			 System.out.print("  ");
+  		 }
+  	 }
+  	 System.out.println();
+    }  
+   System.out.println();
+ }
+ void K()
+ {  
+   for(int i=1;i<=5;i++)
+    {
+  	 for(int j=1;j<=5;j++)
+  	 {
+  		 if(j==1||i==1&&j==3||i==2&&j==2||i==4&&j==2||i==5&&j==3)
+  		 {
+             System.out.print("* ");
+  		 }
+  		 else
+  		 {
+  			 System.out.print("  ");
+  		 }
+  	 }
+  	 System.out.println();
+    }  
+   System.out.println();
+ }
+	   public static void main(String [] args)
+	   {
+		   multi ob1=new multi();
+		   multi ob2=new multi();
+		   multi ob3=new multi();
+		   multi ob4=new multi();
+		   multi ob5=new multi();
+		   multi ob6=new multi();
+		   multi ob7=new multi();
+		   ob1.T();
+		   ob2.E();
+		   ob3.L();
+		   ob4.U();
+		   ob5.S();
+		   ob6.K();
+		   ob7.O(); 
+	   }
+}
